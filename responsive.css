@@ -1,0 +1,279 @@
+@media all and (max-width: 1200px) {
+    /*acima de 1200 arumar slider com flex e text align center*/
+}
+@media all and (max-width: 992px) {
+    #menudesktop{
+        display:none;
+        visibility: hidden;
+    }
+
+    #menumobile{
+        display: flex;
+        visibility: visible;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*Main*/
+    main{
+        width:100%;
+        margin:0;
+    }
+
+    /*Sections*/
+    section{
+        padding: 90px 40px;
+    }
+    
+    /*Main Slider*/
+    div.slideshowtext div.slidercontent{
+        top:40%;
+    }
+
+    div#slidertext{
+        padding:0px;
+        text-align: center;
+    }
+
+    div.slideshowtext .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+
+    div.slideshowtext div.slidercontent h1{
+        font-size:5vw;
+        line-height: 7vw;
+    }
+      
+    div.slideshowtext div.slidercontent b{
+        font-size: 6vw;
+    }
+
+    
+    
+    /*About*/
+    section#about p {
+        padding:0px;
+        margin-bottom: 60px;
+    }
+
+    section#about .row{
+        margin-bottom:60px;
+    
+    }
+
+    .modal-dialog {
+        padding: 100px;
+    }
+
+    /*Contact call*/
+    div#contactcall{
+        padding: 60px 40px;
+        text-align: center;
+    }
+
+    .align-horizontally-end{
+        margin-top:30px;
+        justify-content: center;
+    }
+
+    /*Services*/
+    .services .slick-track{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    section#services .services .item{
+        width: 60px !important;
+    }
+
+    .services .slick-list{
+        padding:0px !important;
+    }
+
+    /*Links*/
+    
+    #links #firstdiv{
+        display: none;
+        visibility: hidden;
+    }
+
+    section#links div#seconddiv{
+        padding:90px 40px;
+        background-color: #f3f3f3;
+    }
+
+    section#links div#seconddiv .contentone .sectiontitle, 
+    section#links div#seconddiv .contentone .sectionsubtitle, 
+    section#links div#seconddiv .contentone .divisor{
+        text-align: center;
+        justify-content: center;
+    }
+
+    section#links div#seconddiv .contentone{
+        padding-right: 0px;
+    }
+
+    section#links div#seconddiv .contentone #firstlinks{
+        display: none;
+        visibility: hidden;
+    }
+
+    section#links div#seconddiv .contenttwo{
+        height: auto;
+        margin:0px;
+    }
+
+    .headingmobile{
+        display: block;
+        visibility: visible;
+        
+    }
+
+    .headingmobile:first-child{
+        margin-top:0px; 
+    }
+
+    .headingmobile button{
+        width: 100%;
+    }
+
+    .card, .card-header{
+        text-align: center !important;
+    }
+
+    .card-body li{
+        margin-top:10px;
+    }
+
+    /*Work with us*/
+    section#workwithus{
+        padding: 90px 40px;
+        margin-top: 0px;
+    }
+
+    section#workwithus h2.sectiontitle,
+    section#workwithus p.sectionsubtitle,
+    section#workwithus .divisor{
+        text-align: center;
+        justify-content: center;
+    }
+
+    section#workwithus p.warning{
+        margin-bottom:40px;
+        text-align: center;
+    }
+    
+    section#workwithus .work-form{
+        padding: 0px;
+    }
+
+    section#workwithus input[type="submit"].input-form{
+        width: 100%;
+    }
+
+    /*Contact*/
+    #contact{
+        background-color: #ebebec;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#form {
+        height: auto;
+        margin-top: 0px;
+        padding: 90px 40px;
+    }
+
+    #form .align-horizontally-end{
+        margin-top:0px;
+    }
+
+    #contactform{
+        padding:0px;
+        box-shadow: none;
+        background-color:transparent
+    }
+
+    #contactinfo{
+        padding: 60px 40px;
+        margin-top: 0px;
+    }
+
+    #contactinfo,
+    #contactinfo h3.sectiontitle{
+        text-align: center;
+    }
+
+    /*404*/
+    section#error{
+        padding: 90px 10px;
+    }
+
+    section#error .morebtn a{
+        padding:5px 10px;
+    }
+
+    /*Post Pages*/
+    section#postpage{
+        padding: 130px 20px 90px;
+    }
+
+    #postpage .singlepost img{
+        border-radius: 15px 15px 0px 0px;
+        height: 230px;
+    }
+
+    /*#postpage .singlepost{
+        height: auto;
+    }
+
+    #postpage .singlepost .content{
+        height:280px;
+    }*/
+
+    section#postpage .sectiontitle, 
+    section#postpage .sectionsubtitle, 
+    section#postpage .divisor{
+    text-align: center;
+    justify-content: center;
+    }
+
+    /*Single*/
+    section#single{
+        padding:40px 20px;
+    }
+
+    section#single .sectiontitle{
+        font-size:1.8rem;
+
+    }
+    div#footerpost{
+        padding:0px 20px 40px;
+    }
+
+    div#footerpost .tags{
+        margin-top:20px;
+    }
+    /*Footer*/
+    footer {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    #copyright{
+        padding:30px 20px;
+    }
+}
+@media all and (max-width: 768px) {
+	
+}
+@media all and (max-width: 576px) {
+	
+}
+@media all and (max-width: 376px) {
+
+}
